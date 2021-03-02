@@ -13,6 +13,39 @@ The most outer function represents the left operand, the most inner function rep
 Division should be integer division. For example, this should return 2, not 2.666666...:
 eight(dividedBy(three())); */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function expression(n, operation) { return (operation) ? operation.call(operation, n) : n; }
 
 function zero(operation) {  return expression(0, operation); }
