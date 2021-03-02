@@ -14,10 +14,6 @@ Division should be integer division. For example, this should return 2, not 2.66
 eight(dividedBy(three())); */
 
 
-
-
-
-
 function expression(n, operation) { return (operation) ? operation.call(operation, n) : n; }
 
 function zero(operation) {  return expression(0, operation); }
